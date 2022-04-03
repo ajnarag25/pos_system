@@ -7,13 +7,14 @@ POS
  <link href="css/bootstrap.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
     <style type="text/css">
 	  body {
-            background: #288dfa;
-            position: relative;
-			font-family: Raleway;
+		background-image: linear-gradient(to right bottom, #c2c2c2, #a4a4a4, #868686, #6a6a6a, #4f4f4f);
+		height: 90vh;
+		position: relative;
+		font-family: 'Mukta', sans-serif;
         }
       .sidebar-nav {
         padding: 9px 0;
@@ -104,7 +105,6 @@ if($position=='cashier') {
 }
 if($position=='admin') {
 ?>
-	
 	<div class="container-fluid">
       <div class="row-fluid">
 	<div class="span2">

@@ -9,7 +9,7 @@ POS
  <link href="css/bootstrap.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <style type="text/css">
       body {
@@ -17,7 +17,7 @@ POS
         padding-bottom: 40px;
 		background: #288dfa;
         position: relative;
-		font-family: Raleway;
+		font-family: 'Mukta', sans-serif;
       }
       .sidebar-nav {
         padding: 9px 0;
