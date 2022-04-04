@@ -15,7 +15,6 @@ POS
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-		background: #288dfa;
         position: relative;
 		font-family: 'Mukta', sans-serif;
       }
@@ -119,7 +118,7 @@ $finalcode='RS-'.createRandomPassword();
 			 <div class="hero-unit-clock">
 		
 			<form name="clock">
-			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
+			<font color="white">Time: <br></font>&nbsp;<input style="width:150px; background-color: #F1C40F; border:none;" type="submit" class="trans" name="face" value="">
 			</form>
 			  </div>
 			</li>
@@ -145,8 +144,8 @@ $finalcode='RS-'.createRandomPassword();
 				$result->execute();
 				$rowcount = $result->rowcount();
 			?>
-			<div style="text-align:center;">
-			Total Number of Customers: <font color="green" style="font:bold 22px 'Aleo';"><?php echo $rowcount;?></font>
+			<div style="text-align:center; color: #efede8">
+			Total Number of Customers: <font color="black" style="font:bold 22px 'Aleo';"><?php echo $rowcount;?></font>
 			</div>
 </div>
 <input type="text" name="filter" style="padding:15px;" id="filter" placeholder="Search Customer..." autocomplete="off" />

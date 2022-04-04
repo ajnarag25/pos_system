@@ -8,19 +8,19 @@ POS
 
     <link rel="stylesheet" type="text/css" href="css/DT_bootstrap.css">
 	<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/font-awesome.min.css">
     <style type="text/css">
 	  body {
-		background-image: linear-gradient(to right bottom, #c2c2c2, #a4a4a4, #868686, #6a6a6a, #4f4f4f);
-		height: 90vh;
 		position: relative;
 		font-family: 'Mukta', sans-serif;
         }
       .sidebar-nav {
         padding: 9px 0;
 		background-color: black !important;
-		
       }
+	  .hvr:hover{
+			color:  #F1C40F;
+		}
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -111,7 +111,7 @@ if($position=='admin') {
           <div class="well sidebar-nav">
                      <ul class="nav nav-list">
             <li class="active"><a href="#"><i class="icon-dashboard icon-2x"></i> Dashboard </a></li> 
-			<li><a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><i class="icon-shopping-cart icon-2x"></i> Sales</a>  </li>             
+			<li><a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><i class="icon-shopping-cart icon-2x "></i> Sales</a>  </li>             
 			<li><a href="products.php"><i class="icon-list-alt icon-2x"></i> Products</a>                                     </li>
 			<li><a href="customer.php"><i class="icon-group icon-2x"></i> Customers</a>                                    </li>
 			<li><a href="supplier.php"><i class="icon-group icon-2x"></i> Suppliers</a>                                    </li>
@@ -121,7 +121,7 @@ if($position=='admin') {
 			 <div class="hero-unit-clock">
 		
 			<form name="clock">
-			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
+			<font color="white">Time: <br></font>&nbsp;<input style="width:150px; background-color: #F1C40F; border:none;" type="submit" class="trans" name="face" value="">
 			</form>
 			  </div>
 			</li>
@@ -133,17 +133,17 @@ if($position=='admin') {
 			<i class="icon-dashboard"></i> Dashboard
 			</div>
 			<br>
-			<center><h1>Hardware Store</h1></center>
+			<center><h1 style="color: #efede8;">Hardware Store</h1></center>
 <div id="mainmain">
 
 
 
-<a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><i class="icon-shopping-cart icon-2x"></i><br> Sales</a>               
-<a href="products.php"><i class="icon-list-alt icon-2x"></i><br> Products</a>      
-<a href="customer.php"><i class="icon-group icon-2x"></i><br> Customers</a>     
-<a href="supplier.php"><i class="icon-group icon-2x"></i><br> Suppliers</a>     
-<a href="salesreport.php?d1=0&d2=0"><i class="icon-bar-chart icon-2x"></i><br> Sales Report</a>
-<a href="../index.php"><font color="red"><i class="icon-off icon-2x"></i></font><br> Logout</a> 
+<a href="sales.php?id=cash&invoice=<?php echo $finalcode ?>"><i class="icon-shopping-cart icon-2x hvr"><br><div style="font-size:20px; font-family: 'Mukta', sans-serif;">Sales</div></i></a>               
+<a href="products.php"><i class="icon-list-alt icon-2x hvr"><br> <div style="font-size:20px; font-family: 'Mukta', sans-serif;">Products</div>  </i></a>      
+<a href="customer.php"><i class="icon-group icon-2x hvr"><br> <div style="font-size:20px; font-family: 'Mukta', sans-serif;">Customers</div>  </i></a>     
+<a href="supplier.php"><i class="icon-group icon-2x hvr"><br> <div style="font-size:20px; font-family: 'Mukta', sans-serif;">Suppliers</div>  </i></a>     
+<a href="salesreport.php?d1=0&d2=0"><i class="icon-bar-chart icon-2x hvr"><br> <div style="font-size:20px; font-family: 'Mukta', sans-serif;">Sales Report</div> </i></a>
+<a href="../index.php" ><font color="red"><i class="icon-off icon-2x hvr"> <div style="font-size:20px; font-family: 'Mukta', sans-serif;">Logout</div></i></a> 
 <?php
 }
 ?>

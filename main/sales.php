@@ -30,7 +30,6 @@ POS
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-		background: #288dfa;
         position: relative;
 		font-family: 'Mukta', sans-serif;
       }
@@ -139,7 +138,7 @@ if($position=='admin') {
 			 <div class="hero-unit-clock">
 		
 			<form name="clock">
-			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="text" class="trans" name="face" value="" disabled>
+			<font color="white">Time: <br></font>&nbsp;<input style="width:150px; background-color: #F1C40F; border:none; color: black;" type="text" class="trans" name="face" value="" disabled>
 			</form>
 			  </div>
 			</li>

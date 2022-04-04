@@ -16,7 +16,6 @@ require_once('auth.php');
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-		background: #288dfa;
         position: relative;
 		font-family: 'Mukta', sans-serif;
       }
@@ -152,7 +151,7 @@ window.onload=startclock;
 			 <div class="hero-unit-clock">
 		
 			<form name="clock">
-			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
+			<font color="white">Time: <br></font>&nbsp;<input style="width:150px; background-color: #F1C40F; border:none;" type="submit" class="trans" name="face" value="">
 			</form>
 			  </div>
 			</li>
@@ -186,11 +185,11 @@ window.onload=startclock;
 				$rowcount123 = $result->rowcount();
 
 			?>
-				<div style="text-align:center;">
-			Total Number of Products:  <font color="green" style="font:bold 22px 'Aleo';">[<?php echo $rowcount;?>]</font>
+				<div style="text-align:center; color: #efede8;">
+			Total Number of Products:  <font color="black" style="font:bold 22px 'Aleo';">[<?php echo $rowcount;?>]</font>
 			</div>
 			
-			<div style="text-align:center;">
+			<div style="text-align:center; color:#efede8;">
 			<font style="color:rgb(255, 95, 66);; font:bold 22px 'Aleo';">[<?php echo $rowcount123;?>]</font> Products are below QTY of 10 
 			</div>
 </div>
@@ -201,8 +200,7 @@ window.onload=startclock;
 <table class="hoverTable" id="resultTable" data-responsive="table" style="text-align: left;">
 	<thead>
 		<tr>
-			<th width="12%"> Brand Name </th>
-			<th width="14%"> Generic Name </th>
+			<th width="8%"> Item Name </th>
 			<th width="13%"> Category / Description </th>
 			<th width="7%"> Supplier </th>
 			<th width="9%"> Date Received </th>

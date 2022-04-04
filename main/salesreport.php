@@ -15,7 +15,6 @@ POS
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-		background: #288dfa;
         position: relative;
 		font-family: 'Mukta', sans-serif;
       }
@@ -120,7 +119,7 @@ $finalcode='RS-'.createRandomPassword();
 			 <div class="hero-unit-clock">
 		
 			<form name="clock">
-			<font color="white">Time: <br></font>&nbsp;<input style="width:150px;" type="submit" class="trans" name="face" value="">
+			<font color="white">Time: <br></font>&nbsp;<input style="width:150px; background-color: #F1C40F; border:none;" type="submit" class="trans" name="face" value="">
 			</form>
 			  </div>
 			</li>
@@ -143,12 +142,12 @@ $finalcode='RS-'.createRandomPassword();
 
 </div>
 <form action="salesreport.php" method="get">
-<center><strong>From : <input type="text" style="width: 223px; padding:14px;" name="d1" class="tcal" value="" /> To: <input type="text" style="width: 223px; padding:14px;" name="d2" class="tcal" value="" />
+<center><strong style="color: #efede8;">From : <input type="text" style="width: 223px; padding:14px;" name="d1" class="tcal" value="" /> To: <input type="text" style="width: 223px; padding:14px;" name="d2" class="tcal" value="" />
  <button class="btn btn-info" style="width: 123px; height:35px; margin-top:-8px;margin-left:8px;" type="submit"><i class="icon icon-search icon-large"></i> Search</button>
 </strong></center>
 </form>
 <div class="content" id="content">
-<div style="font-weight:bold; text-align:center;font-size:14px;margin-bottom: 15px;">
+<div style="font-weight:bold; text-align:center;font-size:14px;margin-bottom: 15px; color:#efede8">
 Sales Report from&nbsp;<?php echo $_GET['d1'] ?>&nbsp;to&nbsp;<?php echo $_GET['d2'] ?>
 </div>
 <table class="table table-bordered" id="resultTable" data-responsive="table" style="text-align: left;">
