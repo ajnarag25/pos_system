@@ -1,1 +1,8 @@
-# pos_sys
+# pos_system
+-- USERNAME: admin / admin123
+-- PASSWORD: admin
+
+#CASHIER
+-- USERNAME: cashier
+-- PASSWORD: cashier
+
