@@ -5,7 +5,7 @@
 -- USERNAME: admin / admin123
 -- PASSWORD: admin
 
-#CASHIER
+# CASHIER
 
 -- USERNAME: cashier
 -- PASSWORD: cashier
